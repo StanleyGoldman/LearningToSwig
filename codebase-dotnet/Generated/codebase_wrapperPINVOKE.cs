@@ -191,28 +191,4 @@ class codebase_wrapperPINVOKE {
   static codebase_wrapperPINVOKE() {
   }
 
-
-  [global::System.Runtime.InteropServices.DllImport("codebase_wrapper", EntryPoint="CSharp_DataStruct_value_set")]
-  public static extern void DataStruct_value_set(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("codebase_wrapper", EntryPoint="CSharp_DataStruct_value_get")]
-  public static extern int DataStruct_value_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("codebase_wrapper", EntryPoint="CSharp_new_DataStruct")]
-  public static extern global::System.IntPtr new_DataStruct();
-
-  [global::System.Runtime.InteropServices.DllImport("codebase_wrapper", EntryPoint="CSharp_delete_DataStruct")]
-  public static extern void delete_DataStruct(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("codebase_wrapper", EntryPoint="CSharp_processDataByReference")]
-  public static extern int processDataByReference(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("codebase_wrapper", EntryPoint="CSharp_processDataByPointer")]
-  public static extern int processDataByPointer(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("codebase_wrapper", EntryPoint="CSharp_createDynamicArray")]
-  public static extern global::System.IntPtr createDynamicArray(int jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("codebase_wrapper", EntryPoint="CSharp_sumDynamicArray")]
-  public static extern int sumDynamicArray(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 }
